@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import './node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import './node_modules/animate.css/animate.compat.css';
+
+$primary : #06d6a0;
+
+$font-family-sans-serif : 'Montserrat', sans-serif;
+$navbar-nav-link-padding-x : 1.5rem;
+
+$border-radius: .5rem;
+$border-radius-lg: .75rem;
+
+$btn-font-size : .75rem;
+$btn-padding-x : 1rem;
+$btn-padding-y : .75rem;
+
+$btn-font-size-lg : 1rem;
+$btn-padding-x-lg : 1.75rem;
+$btn-padding-y-lg : .75rem;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+.nav-link.active {
+    color: white !important;
+}
+
+.service {
+    text-align: center;
+}
+.service {
+    svg {
+        fill: $primary;
+    }
+}
+
+.card {
+    transition: .5s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
